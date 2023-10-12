@@ -9,5 +9,5 @@ mv nvim.appimage nvim
 chmod +x nvim
 sudo chown root:root nvim
 sudo mv nvim /usr/bin
-mkdir -p .config/nvim
+mkdir -p ~/.config/nvim
 ```
