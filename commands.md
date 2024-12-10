@@ -11,3 +11,11 @@ sudo chown root:root nvim
 sudo mv nvim /usr/bin
 mkdir -p ~/.config/nvim
 ```
+
+### openpn
+```
+openvpn3 config-import --config file.ovpn
+openvpn3 configs-list
+sudo openvpn3 session-start --config ovpn_config.ovpn
+sudo openvpn3 sessions-list
+```
